@@ -5,7 +5,7 @@ require 'json'
 #constantes
 MINUTES = 1
 POOLS = [1,2,3]
-APIURL = "http://localhost:3000/api/add_pool_values"
+APIURL = "http://aquacheckpool.herokuapp.com/api/add_pool_values"
 
 def send_values(pool_id,ph,cl2,temp)
 
